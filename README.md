@@ -6,7 +6,7 @@
 
 https://web.archive.org/web/20140301004610/http://www.apple.com/
 
-![Alt text](https://github.com/GabrielJSuarez/YoutubeVideoPage/blob/master/screenshot.png?raw=true "Screenshot")
+![Alt text](https://github.com/GabrielJSuarez/backgroundAndGradients-Microverse/blob/feature-clone-branch/screenshot.png?raw=true "Screenshot")
 
 ## Built With
 
@@ -14,7 +14,7 @@ https://web.archive.org/web/20140301004610/http://www.apple.com/
 
 ## Live Demo
 
-[Live Demo Link](https://gabrieljsuarez.github.io/YoutubeVideoPage/)
+[Live Demo Link](https://gabrieljsuarez.github.io/backgroundAndGradients-Microverse/)
 
 
 ## Getting Started
