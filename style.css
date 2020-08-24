@@ -1,8 +1,45 @@
-/*.hero {
-    background-image: url(images/your_verse_hero_2x.jpg);
-}*/
+/* GLOBALS */
 
 html {
-    background-color: #000;
-    color: #ffffff;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /* Rem Reset */
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.main-container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.center-container {
+    margin: 0 auto;
+}
+
+
+/*---------------------*/
+
+
+/* Background (Header) */
+
+.hero {
+    background-image: url(images/your_verse_hero_2x.jpg);
+    background-size: 100vw;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    height: 60rem;
 }
