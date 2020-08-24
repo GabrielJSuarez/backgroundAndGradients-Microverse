@@ -30,6 +30,10 @@ img {
     margin: 0 auto;
 }
 
+.center-text {
+    text-align: center;
+}
+
 
 /*---------------------*/
 
@@ -41,5 +45,34 @@ img {
     background-size: 100vw;
     background-position: center bottom;
     background-repeat: no-repeat;
+    height: 80vh;
+    /*
     height: 60rem;
+    */
+}
+
+
+/*------------------*/
+
+
+/* navigation bar */
+
+.nav-container {
+    width: 75vw;
+    height: 4rem;
+    margin: 0 auto;
+}
+
+.nav-content {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-content a {
+    flex-basis: 10%;
+}
+
+.apple-logo {
+    height: 4rem;
+    overflow-y: hidden;
 }
