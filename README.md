@@ -4,7 +4,7 @@
 
 > A clone of the apple website trying to implement background and gradients properties, all Javascript features will be omitted.
 
-http://archive.vn/Bss88
+https://web.archive.org/web/20140301004610/http://www.apple.com/
 
 ![Alt text](https://github.com/GabrielJSuarez/YoutubeVideoPage/blob/master/screenshot.png?raw=true "Screenshot")
 
