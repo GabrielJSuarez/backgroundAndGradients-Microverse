@@ -34,6 +34,10 @@ img {
     text-align: center;
 }
 
+.navbar-border {
+    border: 1px solid #464646;
+}
+
 
 /*---------------------*/
 
@@ -65,13 +69,13 @@ img {
 
 .nav-container {
     width: 75vw;
-    height: 4rem;
     margin: 10rem auto 0;
-    background: linear-gradient(0deg, rgba(100, 98, 98, 1) 50%, rgba(128, 128, 128, 1) 50%);
+    background-image: linear-gradient(0deg, #6c6c6c, #505050 50%, #646764 50%, #848484 100%);
 }
 
-.nav-content {
-    justify-content: space-around;
+.nav-content,
+.apple-logo {
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -80,6 +84,5 @@ img {
 }
 
 .apple-logo {
-    height: 4rem;
-    overflow-y: hidden;
+    padding: 0 2rem;
 }
