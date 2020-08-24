@@ -40,15 +40,21 @@ img {
 
 /* Background (Header) */
 
+.hero-container {
+    position: relative;
+    height: 80vh;
+}
+
 .hero {
+    position: absolute;
+    top: 0;
     background-image: url(images/your_verse_hero_2x.jpg);
-    background-size: 100vw;
+    background-size: cover;
     background-position: center bottom;
     background-repeat: no-repeat;
     height: 80vh;
-    /*
-    height: 60rem;
-    */
+    min-height: 40rem;
+    min-width: 80rem;
 }
 
 
@@ -60,7 +66,7 @@ img {
 .nav-container {
     width: 75vw;
     height: 4rem;
-    margin: 0 auto;
+    margin: 10rem auto 0;
 }
 
 .nav-content {
