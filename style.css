@@ -65,6 +65,7 @@ img {
 /* navigation bar */
 
 .nav-container {
+    border: 1px solid #646764;
     border-radius: 0.3rem;
     width: 75vw;
     margin: 5rem auto 0;
@@ -98,7 +99,7 @@ img {
     background: none;
     border-radius: 3rem;
     height: 2.5rem;
-    width: 12rem;
+    width: 15rem;
     border: 1.1px solid #646764;
 }
 
@@ -132,12 +133,12 @@ h3:hover {
 /* Footer */
 
 .footer-container {
+    margin: 1.5rem auto;
     width: 75vw;
 }
 
 .footer-last {
     align-items: center;
-    padding-left: 5rem;
 }
 
 .footer-text {
@@ -182,5 +183,5 @@ h3:hover {
 }
 
 .footer-copyright p {
-    width: 50rem;
+    width: 40rem;
 }
