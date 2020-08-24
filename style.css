@@ -67,6 +67,7 @@ img {
     width: 75vw;
     height: 4rem;
     margin: 10rem auto 0;
+    background: linear-gradient(0deg, rgba(100, 98, 98, 1) 50%, rgba(128, 128, 128, 1) 50%);
 }
 
 .nav-content {
