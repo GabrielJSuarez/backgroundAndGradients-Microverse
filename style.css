@@ -4,6 +4,7 @@ html {
     box-sizing: border-box;
     font-size: 62.5%;
     /* Rem Reset */
+    font-family: 'Lato', sans-serif;
 }
 
 *,
@@ -42,7 +43,7 @@ img {
 
 .hero-container {
     position: relative;
-    height: 81vh;
+    height: 80.5vh;
 }
 
 .hero {
@@ -72,14 +73,13 @@ img {
 }
 
 .apple-logo a img {
-    width: 2.8rem;
     margin-left: 2rem;
 }
 
 .navbar a {
     display: inline-block;
     padding: 1rem 2.8rem;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     color: #fff;
     text-decoration: none;
     border-left: 1px solid #646764;
@@ -88,8 +88,6 @@ img {
 .navbar a:last-child {
     border-right: 1px solid #646764;
 }
-
-.searchbar {}
 
 .searchbar i {
     margin: -1.8rem;
@@ -125,4 +123,64 @@ h1:hover,
 h2:hover,
 h3:hover {
     cursor: pointer;
+}
+
+
+/*---------------------*/
+
+
+/* Footer */
+
+.footer-container {
+    width: 75vw;
+}
+
+.footer-last {
+    align-items: center;
+    padding-left: 5rem;
+}
+
+.footer-text {
+    width: 50rem;
+}
+
+.footer-text,
+.footer-nav a {
+    font-size: 0.9rem;
+}
+
+.footer-text a,
+.footer-nav a {
+    color: #0088cc;
+    text-decoration: none;
+}
+
+.footer-text {
+    margin-right: 2rem;
+    color: #6e6e6e;
+}
+
+.footer-nav {
+    width: 60rem;
+}
+
+.footer-nav a img {
+    width: 50%;
+}
+
+.footer-nav a {
+    padding: 0 0.3rem;
+    border-right: 1px solid grey;
+}
+
+.footer-nav a:last-child {
+    border-right: none;
+}
+
+.d .footer-last p {
+    margin-right: 1rem;
+}
+
+.footer-copyright p {
+    width: 50rem;
 }
