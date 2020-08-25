@@ -1,0 +1,186 @@
+/* stylelint-disable */
+
+
+/* GLOBALS */
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /* Rem Reset */
+    font-family: 'Lato', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.center-flex {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.center-container {
+    margin: 0 auto;
+}
+
+.center-text {
+    text-align: center;
+}
+
+
+/*---------------------*/
+
+
+/* Background (Header) */
+
+.hero-container {
+    position: relative;
+    height: 80.5vh;
+}
+
+.hero {
+    position: absolute;
+    top: 0;
+    background-image: url(images/your_verse_hero_2x.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    height: 80vh;
+    min-height: 40rem;
+    min-width: 80rem;
+}
+
+
+/*------------------*/
+
+
+/* navigation bar */
+
+.nav-container {
+    border: 1px solid #646764;
+    border-radius: 0.3rem;
+    width: 90rem;
+    margin: 5rem auto 0;
+    background: linear-gradient(0deg, #6c6c6c, #505050 50%, #646764 50%, #848484 100%);
+}
+
+.apple-logo a img {
+    margin-left: 2rem;
+}
+
+.navbar a {
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    font-size: 1.2rem;
+    color: #fff;
+    text-decoration: none;
+    border-left: 1px solid #646764;
+}
+
+.navbar a:last-child {
+    border-right: 1px solid #646764;
+}
+
+.searchbar i {
+    margin: -1.8rem;
+    color: #fff;
+}
+
+.searchbar input {
+    background: none;
+    border-radius: 3rem;
+    height: 2.5rem;
+    width: 15rem;
+    border: 1.1px solid #646764;
+}
+
+
+/*-------------------*/
+
+
+/* TITLE */
+
+.title-container {
+    margin-top: 4rem;
+}
+
+h1,
+h2,
+h3 {
+    width: 70%;
+    margin: 3rem auto;
+}
+
+h1:hover,
+h2:hover,
+h3:hover {
+    cursor: pointer;
+}
+
+
+/*---------------------*/
+
+
+/* Footer */
+
+.footer-container {
+    margin: 1.5rem auto;
+    width: 75vw;
+}
+
+.footer-last {
+    align-items: center;
+}
+
+.footer-text {
+    width: 50rem;
+    margin-right: 2rem;
+    color: #6e6e6e;
+}
+
+.footer-text,
+.footer-nav a {
+    font-size: 0.9rem;
+}
+
+.footer-text a,
+.footer-nav a {
+    color: #08c;
+    text-decoration: none;
+}
+
+.footer-nav {
+    width: 60rem;
+}
+
+.footer-nav a img {
+    width: 50%;
+}
+
+.footer-nav a {
+    padding: 0 0.8rem;
+    border-right: 1px solid grey;
+}
+
+.footer-nav a:last-child {
+    border-right: none;
+}
+
+.footer-last p {
+    margin-right: 1rem;
+}
+
+.footer-copyright p {
+    width: 40rem;
+}
