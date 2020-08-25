@@ -70,7 +70,7 @@ img {
 .nav-container {
     border: 1px solid #646764;
     border-radius: 0.3rem;
-    width: 75vw;
+    width: 90rem;
     margin: 5rem auto 0;
     background: linear-gradient(0deg, #6c6c6c, #505050 50%, #646764 50%, #848484 100%);
 }
